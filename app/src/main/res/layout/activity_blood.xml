@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="hamano.masashi.health_check.BloodActivity">
+
+
+    <TextView
+        android:id="@+id/tvTall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calBlood"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Father's blood type"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:textSize="20sp"
+        />
+
+
+    <RadioGroup
+        android:id="@+id/fblood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/fA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A"
+            android:checked="true"
+            android:layout_weight="2"
+            android:textSize="15dp"/>
+
+        <RadioButton
+            android:id="@+id/fB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="B"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+        <RadioButton
+            android:id="@+id/fO"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:layout_weight="2"
+            android:textSize="15dp"/>
+
+        <RadioButton
+            android:id="@+id/fAB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AB"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            />
+
+        </LinearLayout>
+    </RadioGroup>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mather's blood type"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:textSize="20sp"
+        />
+
+
+    <RadioGroup
+        android:id="@+id/mblood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/mA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A"
+                android:checked="true"
+                android:layout_weight="2"
+                android:textSize="15dp"/>
+
+            <RadioButton
+                android:id="@+id/mB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="B"
+                android:layout_weight="1"
+                android:textSize="15dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <RadioButton
+                android:id="@+id/mO"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:layout_weight="2"
+                android:textSize="15dp"/>
+
+            <RadioButton
+                android:id="@+id/mAB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AB"
+                android:layout_weight="1"
+                android:textSize="15dp"
+                />
+
+        </LinearLayout>
+    </RadioGroup>
+
+    <Button
+        android:shape="oval"
+        android:id="@+id/calc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="@string/calculate"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:background="@drawable/frame_style"/>
+
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        />
+
+
+</LinearLayout>

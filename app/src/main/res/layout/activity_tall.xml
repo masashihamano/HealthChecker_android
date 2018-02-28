@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:bootstrap="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:id="@+id/activity_tall"
+    tools:context="hamano.masashi.health_check.TallActivity">
+
+    <TextView
+        android:id="@+id/tvTall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calTall"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/genTall"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+    <RadioGroup
+        android:id="@+id/gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="5dp"
+        >
+
+        <RadioButton
+            android:id="@+id/male"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/boyTall"
+            android:checked="true"
+            android:layout_weight="1"
+            android:textSize="15dp"/>
+
+        <RadioButton
+            android:id="@+id/female"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/girlTall"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            />
+
+    </RadioGroup>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dadTall"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:id="@+id/Tfheight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:ems="6"
+        android:inputType="number|numberDecimal"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mamTall"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:id="@+id/Tmheight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:ems="6"
+        android:inputType="number|numberDecimal"
+        />
+
+    <Button
+        android:shape="oval"
+        android:id="@+id/Tcalc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="@string/calculate"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:background="@drawable/frame_style"/>
+
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        />
+
+
+</LinearLayout>
