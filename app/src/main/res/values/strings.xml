@@ -1,9 +1,15 @@
 <resources>
-    <string name="app_name">Health_Check</string>
+    <string name="app_name">Health Checker</string>
 
     <string name="weight">Weight(kg)</string>
     <string name="height">Height(cm)</string>
     <string name="calculate">PUSH</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="age">Age</string>
+    <string name="gender">Gender</string>
+    <string name="resultbloodtype">Blood Type</string>
+
 
     <string name="calBMI">Calculate the BMI</string>
     <string name="resBMI">Your BMI index is・・</string>
@@ -13,16 +19,12 @@
     <string name="resKaup">Your Kaup index is・・</string>
     <string name="calTall">Calculate the Height Prediction</string>
     <string name="resTall">Your predicted height is・・</string>
-    <string name="genTall">Gender of child</string>
     <string name="boyTall">Boy</string>
     <string name="girlTall">Girl</string>
-    <string name="dadTall">Height of father</string>
-    <string name="mamTall">Height of mother</string>
+
 
     <string name="calBlood">Examine the type of your blood</string>
-    <string name="resBLood">Probability of blood type is・・</string>
-    <string name="dadBLood">Blood type of father</string>
-    <string name="mamBLood">Blood type of mother</string>
+    <string name="resBLood">The possibility of your blood type is・・</string>
 
     <string name="calBMR">Calculate the BMR</string>
     <string name="resBMR">Your BMR index is・・</string>
@@ -31,8 +33,8 @@
     <string name="infoRohrer">※The Raurel index is about 130 and it is a standard body shape if it is within plus or minus 15, it is standard.\n※When it is plus 30 or more, it is judged to be silky if it is overweight and becomes minus 30 or less.</string>
     <string name="infoKaup">※It is generally said that 15 to 18 is normal, but it does not necessarily lead to a diagnosis that it is obese immediately because it exceeds.</string>
     <string name="infotall">※Please understand that there is an individual difference the value. It may causes a measurement error.</string>
-    <string name="infoBlood">※</string>
-    <string name="infoBMR">※</string>
+    <string name="infoBlood">※In rare cases, it may be born with blood type other than the above combination due to genetic change or various reasons.</string>
+    <string name="infoBMR">※BMR: The amount of energy per unit time required for life support. For adults, 1200 to 1400 kcal / day a day.\n※We calculate basal metabolic rate using Harris · Benedict equation.</string>
 
     <string name="very_severely_underweight">very severely underweight</string>
     <string name="severely_underweight">severely underweight</string>

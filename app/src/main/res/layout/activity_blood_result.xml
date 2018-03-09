@@ -5,37 +5,139 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:padding="15dp"
     tools:context="hamano.masashi.health_check.BloodResultActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/resBLood"
-        android:textSize="25dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="30dp"
+        android:textSize="26dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
         android:textStyle="bold"/>
 
-    <TextView
-        android:id="@+id/result"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text="Blood 結果"
-        android:textColor="@color/colorGreen"
-        android:gravity="center_horizontal"
-        android:layout_marginTop="50dp"
-        android:textSize="50dp"
-        android:textStyle="bold"
-        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Possibility of type 'A' :"
+            android:textSize="20dp"
+            android:typeface="monospace"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/typeatext" />
+
+        <TextView
+            android:id="@+id/typeavalue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/resultbloodtype"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:layout_marginLeft="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Possibility of type 'B' :"
+            android:typeface="monospace"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/typebtext"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/typebvalue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/resultbloodtype"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:layout_marginLeft="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Possibility of type 'O' :"
+            android:typeface="monospace"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/typeotext"
+            android:textSize="20dp"/>
+
+
+        <TextView
+            android:id="@+id/typeovalue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/resultbloodtype"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:layout_marginLeft="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Possibility of type 'AB' :"
+            android:typeface="monospace"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/typeabtext"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/typeabvalue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/resultbloodtype"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:layout_marginLeft="5dp"/>
+
+    </LinearLayout>
+
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/infoBlood"
         android:textSize="15dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="30dp"
         android:layout_marginLeft="10dp"
         />
+
+
 
 </LinearLayout>

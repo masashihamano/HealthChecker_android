@@ -64,13 +64,7 @@ public class MainActivity extends AppCompatActivity {
             public void onItemClick(
               AdapterView<?>adapterView, View view, int position, long id) {
 
-//                if(position==0)
-//                {
-//                    Intent intent = new Intent( view.getContext(),bmiActivity.class );
-//                    intent.putExtra( "id",position );
-//                    startActivity( intent );
-//
-//                }
+
 
                 //リストビューの場合、idではなくpositionを設定する
                 switch (position)
@@ -100,13 +94,13 @@ public class MainActivity extends AppCompatActivity {
                         break;
 
                     case 4:
-                        Intent intent5 = new Intent( getApplicationContext(),bmiActivity.class );
+                        Intent intent5 = new Intent( getApplicationContext(),BloodActivity.class );
                         intent5.putExtra( "blood",position );
                         startActivity( intent5 );
                         break;
 
                     case 5:
-                        Intent intent6 = new Intent( getApplicationContext(),bmiActivity.class );
+                        Intent intent6 = new Intent( getApplicationContext(),BmrActivity.class );
                         intent6.putExtra( "bmr",position );
                         startActivity( intent6 );
                         break;
@@ -191,7 +185,6 @@ public class MainActivity extends AppCompatActivity {
 //少数代第2まで
 //配列の多言語化(リストビュー)
 
-//性別
 //血液型ロジック
 //BMR
 

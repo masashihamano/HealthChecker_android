@@ -58,13 +58,14 @@ public class TallActivity extends AppCompatActivity implements View.OnClickListe
            if(person.equals( "Boy" ))
            {
                double tall = (fheightValue + mheightValue + 13) / 2+2;
-                            displayTall( tall );
+               displayTall( tall );
            }
            else if(person.equals( "Girl" ))
            {
                double tall1 = (fheightValue + mheightValue - 13) / 2+2;
                displayTall1( tall1 );
            }
+
 
 //
 //            radioGroup.setOnCheckedChangeListener( new RadioGroup.OnCheckedChangeListener() {

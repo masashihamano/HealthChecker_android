@@ -16,9 +16,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/calKaup"
-        android:textSize="20dp"
+        android:textSize="30dp"
         android:layout_marginTop="10dp"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        android:textColor="@color/colorGreen"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -28,6 +29,7 @@
         android:gravity="center_horizontal"
         android:layout_marginTop="50dp"
         android:textSize="20sp"
+        android:textStyle="bold"
         />
 
     <EditText
@@ -36,8 +38,11 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="10dp"
+        android:gravity="center"
         android:ems="6"
+        android:textStyle="bold"
         android:inputType="number|numberDecimal"
+        android:textSize="30dp"
         />
 
     <TextView
@@ -46,8 +51,9 @@
         android:text="@string/weight"
         android:layout_gravity="center_horizontal"
         android:gravity="center_horizontal"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="30dp"
         android:textSize="20sp"
+        android:textStyle="bold"
         />
 
     <EditText
@@ -56,8 +62,11 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="10dp"
+        android:gravity="center"
         android:ems="6"
         android:inputType="number|numberDecimal"
+        android:textStyle="bold"
+        android:textSize="30dp"
         />
 
     <Button

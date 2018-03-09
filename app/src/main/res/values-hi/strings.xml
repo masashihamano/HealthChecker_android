@@ -5,6 +5,11 @@
     <string name="weight">वजन(kg)</string>
     <string name="height">ऊंचाई(cm)</string>
     <string name="calculate">धक्का दें</string>
+    <string name="male">एक आदमी</string>
+    <string name="female">महिला</string>
+    <string name="age">आयु</string>
+    <string name="gender">लिंग</string>
+    <string name="resultbloodtype">रक्त का प्रकार</string>
 
     <string name="calBMI">बीएमआई की गणना करें</string>
     <string name="resBMI">आपका बीएमआई सूचकांक है・・</string>
@@ -14,16 +19,13 @@
     <string name="resKaup">आपका कैप इंडेक्स है・・</string>
     <string name="calTall">ऊंचाई की भविष्यवाणी की गणना करें</string>
     <string name="resTall">ऊँचाई भविष्यवाणी सूचकांक है・・</string>
-    <string name="genTall">बच्चे के लिंग</string>
     <string name="boyTall">लड़का</string>
     <string name="girlTall">लड़की</string>
-    <string name="dadTall">पिता की ऊंचाई</string>
-    <string name="mamTall">मां की ऊंचाई</string>
+
 
     <string name="calBlood">अपने खून के प्रकार की जांच करें</string>
     <string name="resBLood">रक्त के प्रकार की संभावना है・・</string>
-    <string name="dadBLood">रक्त का पिता</string>
-    <string name="mamBLood">रक्त की मां</string>
+
 
     <string name="calBMR">बीएमआर की गणना करें</string>
     <string name="resBMR">आपका बीएमआर सूचकांक है・・</string>
@@ -33,8 +35,8 @@
     <string name="infoRohrer">※लॉरेल सूचकांक लगभग 130 है और यह एक मानक शरीर का आकार है यदि यह प्लस या शून्य से 15 के भीतर है, यह मानक है\n※जब यह प्लस 30 या उससे अधिक है, तो यह रेशमी होना तय है कि यह अधिक वजन वाला है और 30 या उससे कम शून्य से कम हो जाता है</string>
     <string name="infoKaup">※आम तौर पर यह कहा जाता है कि 15 से 18 सामान्य है, लेकिन यह जरूरी नहीं है कि यह एक निदान का कारण बनता है क्योंकि यह तुरंत मोटापे से ग्रस्त है क्योंकि यह अधिक से अधिक है</string>
     <string name="infotall">※कृपया समझें कि मूल्य में एक अलग अंतर है। यह एक माप त्रुटि का कारण हो सकता है</string>
-    <string name="infoBlood">※</string>
-    <string name="infoBMR">※</string>
+    <string name="infoBlood">※शायद ही यह आनुवांशिक परिवर्तन या विभिन्न कारणों के कारण उपर्युक्त संयोजन के अलावा एक रक्त प्रकार के साथ पैदा हो सकता है</string>
+    <string name="infoBMR">※बीएमआर: जीवन समर्थन के लिए आवश्यक प्रति यूनिट ऊर्जा की मात्रा। वयस्कों के लिए, प्रति दिन 1200 से 1400 केएससी / दिन।\n※हम हैरिस · बेनेडिक्ट समीकरण का उपयोग करके बेसल चयापचय दर की गणना करते हैं</string>
 
 
     <string name="very_severely_underweight">बहुत गंभीर रूप से कम वजन</string>

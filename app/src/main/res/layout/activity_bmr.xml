@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:bootstrap="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:bootstrap="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:padding="16dp"
-    android:id="@+id/activity_tall"
-    tools:context="hamano.masashi.health_check.TallActivity">
+    android:id="@+id/activity_bmr"
+    tools:context="hamano.masashi.health_check.BmrActivity">
 
     <TextView
         android:id="@+id/tvTall"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/calTall"
-        android:textSize="20dp"
+        android:text="@string/calBMR"
+        android:textSize="30dp"
         android:layout_marginTop="10dp"
         android:textStyle="bold"
         android:textColor="@color/colorGreen"/>
@@ -23,10 +23,10 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Child's gender"
+        android:text="@string/gender"
         android:layout_gravity="center_horizontal"
         android:gravity="center_horizontal"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="10dp"
         android:textSize="20sp"
         android:textStyle="bold"
         />
@@ -37,23 +37,24 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_marginLeft="55dp"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="1dp"
         >
 
         <RadioButton
             android:id="@+id/male"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/boyTall"
+            android:text="@string/male"
             android:checked="true"
             android:layout_weight="1"
-            android:textSize="15dp"/>
+            android:textSize="15dp"
+            />
 
         <RadioButton
             android:id="@+id/female"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/girlTall"
+            android:text="@string/female"
             android:layout_weight="1"
             android:textSize="15dp"
             />
@@ -61,24 +62,47 @@
     </RadioGroup>
 
 
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Father's height"
+        android:text="@string/age"
         android:layout_gravity="center_horizontal"
         android:gravity="center_horizontal"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="10dp"
         android:textSize="20sp"
         android:textStyle="bold"
         />
 
     <EditText
-        android:id="@+id/Tfheight"
+        android:id="@+id/age"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="1dp"
+        android:gravity="center"
+        android:ems="6"
+        android:inputType="number"
+        android:textStyle="bold"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/height"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/height"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="1dp"
         android:gravity="center"
         android:ems="6"
         android:inputType="number|numberDecimal"
@@ -88,20 +112,20 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Mother's height"
+        android:text="@string/weight"
         android:layout_gravity="center_horizontal"
         android:gravity="center_horizontal"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="10dp"
         android:textSize="20sp"
         android:textStyle="bold"
         />
 
     <EditText
-        android:id="@+id/Tmheight"
+        android:id="@+id/weight"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="1dp"
         android:gravity="center"
         android:ems="6"
         android:inputType="number|numberDecimal"
@@ -114,7 +138,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="15dp"
         android:text="@string/calculate"
         android:textColor="#fff"
         android:textStyle="bold"
@@ -129,3 +153,4 @@
 
 
 </LinearLayout>
+

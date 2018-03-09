@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Health_Check</string>
+    <string name="app_name">Health Checker</string>
 
     <string name="weight">体重(kg)</string>
     <string name="height">身長(cm)</string>
     <string name="calculate">PUSH!</string>
+    <string name="male">男性</string>
+    <string name="female">女性</string>
+    <string name="age">年齢</string>
+    <string name="gender">性別</string>
+    <string name="resultbloodtype">血液型</string>
 
     <string name="calBMI">BMIを計測する</string>
     <string name="resBMI">あなたのBMI数値は・・</string>
@@ -14,16 +19,13 @@
     <string name="resKaup">あなたのカウプ指数は・・</string>
     <string name="calTall">身長予測を計算する</string>
     <string name="resTall">身長予測の査定結果・・</string>
-    <string name="genTall">子供の性別</string>
     <string name="boyTall">男の子</string>
     <string name="girlTall">女の子</string>
-    <string name="dadTall">お父さんの身長</string>
-    <string name="mamTall">お母さんの身長</string>
+
 
     <string name="calBlood">血液型を調べる</string>
     <string name="resBLood">あなたの血液型の可能性は・・</string>
-    <string name="dadBLood">お父さんの血液型</string>
-    <string name="mamBLood">お母さんの血液型</string>
+
 
     <string name="calBMR">BMRを計算する</string>
     <string name="resBMR">あなたのBMR指数は・・</string>
@@ -33,8 +35,8 @@
     <string name="infoRohrer">※ローレル指数は130程度が標準的な体型とされ、プラスマイナス15程度に収まっていれば標準とされます。\n※プラス30以上となると、太りすぎ、マイナス30以下となると、やせすぎと判断されます。</string>
     <string name="infoKaup">※一般的には15〜18が正常値であると言われていますが、必ずしもそれが肥満という診断につながるわけではありません。</string>
     <string name="infotall">※値には個人差があることをご理解ください。あくまでも目安となる値で誤差が発生することがあります。</string>
-    <string name="infoBlood">※</string>
-    <string name="infoBMR">※</string>
+    <string name="infoBlood">※ごくまれに遺伝子変化や様々な理由で上記の組み合わせ以外の血液型で誕生することがあります。</string>
+    <string name="infoBMR">※BMRとは生命維持に必要な単位時間当たりのエネルギー量です。成人で1日1200～1400キロカロリー。\n※ハリス・ベネディクト方程式を使って基礎代謝量を計算しています。</string>
 
     <string name="very_severely_underweight">ガリガリ</string>
     <string name="severely_underweight">やせすぎ</string>
